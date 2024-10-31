@@ -1,0 +1,36 @@
+.propular-product-widget {
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+}
+.propular-product-widget.woocommerce .star-rating {
+    float: unset;
+    font-size: 14px;
+}
+a.propular-product-img {
+    width: 30%;
+    float: left;
+    padding-right: 20px;
+}
+.ppfw-grid-view {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ppfw-grid-view .propular-product-widget {
+    background: transparent;
+    border: none;
+    width: 25%;
+    float: left;
+    text-align: center;
+    display: block;
+}
+.ppfw-grid-view a.propular-product-img {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.ppfw-grid-view .star-rating{
+    margin: 0 auto;
+}
